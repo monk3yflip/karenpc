@@ -1,0 +1,18 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+{% load static %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<p style="font-size:large; padding:15px 0 15px 0;"> Как подобрать комплектующие? </p>
+<a href="https://club.dns-shop.ru/blog/t-90-kompyuteryi/20005-kak-podobrat-komplektuuschie-dlya-samostoyatelnoi-sborki-pk/" target="_blank"><img src="{% static 'app/content/DNS.jpg'%}" width='250' alt="source_pic"></a>
+
+<p style="font-size:large; padding:15px 0 15px 0;"> Как выбрать видеокарту? </p>
+<a href="https://hyperpc.ru/blog/gaming-pc/how-to-choose-vga" target="_blank"><img src="{% static 'app/content/hp.png'%}" width='250' alt="source_pic"></a>
+
+<p style="font-size:large; padding:15px 0 15px 0;"> Топ лучших процессоров для игр 2023 </p>
+<a href="https://www.youtube.com/watch?v=FJQoD_SqVNc&ab_channel=stupidmadworld" target="_blank"><img src="{% static 'app/content/yt.png'%}" width='250' alt="source_pic"></a>
+
+{% endblock %}
